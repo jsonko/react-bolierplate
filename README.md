@@ -5,8 +5,7 @@
 ### React Application 개발 시 필요한 Package 설치 
  
  ```
-  $ npm install --save-dev webpack webpack-dev-server babel-core 
-      babel-loader babel-preset-es2015 babel-preset-react babel-eslint eslint
+ $ npm install --save-dev webpack webpack-dev-server babel-core babel-loader babel-preset-es2015 babel-preset-react babel-eslint eslint css-loader style-loader html-webpack-plugin extract-text-webpack-plugin
  ```
  
 ### Webpack.config.js 설정 - development
