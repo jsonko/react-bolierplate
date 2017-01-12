@@ -20,8 +20,8 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/,
-        loader: 'style!css?modules'
+        test: /\.css$/,               // CSS 파일 확장자를 찾기 위한 regex
+        loader: 'style!css?modules'   // css loader, "module" parameter추가 시 CSS module loader가 활성화 됨. 
       }
     ]
   },
